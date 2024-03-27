@@ -1,0 +1,168 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #0000ff00;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.header{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.offlogowiki{
+    position: fixed;
+    margin-top: 0px !important;
+}
+.main {
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(252, 252, 252);
+    border: solid rgb(255, 255, 255) ;
+    padding-top: 15px;
+}
+
+
+.leftnav {    
+    background-color: #ffffff; 
+    border-right: double 1px #cdcdcd;   
+    border-left: double 1px #cdcdcd;    
+    padding-right: 15px;    
+    padding-left: 30px;     
+    
+    
+}
+.rightnav {    
+    background-color: rgb(255, 255, 255);
+    border-right: solid 1px #cdcdcd;
+    border-left: solid 1px #cdcdcd;
+    padding-right: 15px;     
+    padding-left: 15px;
+}
+
+.mainarticle{
+    text-align: left;
+    background-color: (252,252,252);
+}
+.mainarticle>h1{
+    font-size: 30px;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;    
+    background-color: rgb(255, 255, 255);
+    
+    text-align: center;
+}
+
+element.style {
+    line-height: 1.2em;
+    font-size: 88%;
+    width: 22em;
+}
+.infobox {
+    background: #f9f9f9;
+    color: #000;
+    font-size: 90%;
+    line-height: 1.1em;
+    float: right;
+    clear: right;
+    margin: 0.5em 0 0.5em 1em;
+    width: 23em;
+    border: 1px solid #aaa;
+    padding: 2px;
+    text-align: center;
+}
+.titulobox{
+    font-size: 120%;
+    text-align: center;
+    line-height: 1.2em;
+    background-color: #ffebcd;
+}
+
+.textobox{
+    background-color: #ffebcd;    
+    text-align: center;
+}
+.textobox2{
+    font-weight: bold;
+    text-align: left;
+}
+
+.textobox3{
+    text-align: left;
+}
+
+.ancoras{
+    font-size: 110%;
+    width: 8em;
+    list-style-type:disc;
+    margin-left: 15px;
+}
+.fototony{
+    max-width: 250px;
+    float: right;
+    clear: right;
+    text-align: center;
+    caption-side: bottom;
+    background-color: #ffebcd;
+    border-top: solid #ffebcd 10px;
+
+}
+.captiontony{
+    max-width: 250px;
+    word-break: break-word;
+    text-align: center;
+    background-color: #ffebcd;
+    border-bottom: solid 5px #ffebcd;
+}
+.legado>li{    
+    list-style-type:disc;
+    padding-left: 15px;
+}
+.musicosturne{
+    display: inline-block;    
+    word-break: break-word;
+    margin-left: 10px;        
+    max-width: 45%;
+    vertical-align: top;
+    list-style-type:disc;
+}
+.ultimaformacao{
+    display: inline-block;
+    margin-right: 10px;
+    word-break: break-word;
+    max-width: 45%;
+    vertical-align: top;
+    list-style-type:disc;
+}
+
+.integrantesfoto{
+overflow: auto;
+}
+.discografiatable>tbody>tr>td>ul{
+    list-style-type:disc;
+}
+.discografiatable>tbody>tr>td{
+    width: 50%;
+    text-align: left; 
+    vertical-align: top;
+}
+.turnes>table>tr>td{
+    width: 33%;
+    text-align: left;
+    vertical-align: top;
+}
